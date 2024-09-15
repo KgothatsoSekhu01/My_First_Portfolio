@@ -4,57 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tweets Page</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Optional: Add your CSS file if you have one -->
 </head>
 <body>
-    <h1>Tweets Page</h1>
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="html_basic/tweets.html">Tweets</a></li>
+        </ul>
+    </header>
     
-    <p>This page contains some embedded tweets and a link back to the homepage.</p>
+    <main>
+        <article>
+            <h1>Tweets Page</h1>
+            
+            <p>This page contains some embedded tweets and a link back to the homepage.</p>
 
-    <!-- Embedding a tweet -->
-    <blockquote class="twitter-tweet">
-        <p lang="en" dir="ltr">Just setting up my Twitter. #myfirstTweet</p>
-        &mdash; Twitter (@Twitter) <a href="https://twitter.com/Twitter/status/20?ref_src=twsrc%5Etfw">September 21, 2006</a>
-    </blockquote>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-    <!-- Link to the homepage -->
-    <p><a href="index.html">Back to Homepage</a></p>
-</body>
-</html>
-2. Update index.html
-Next, you need to add a link to tweets.html in your index.html file. Here's the updated index.html:
-
-Updated index.html
-html
-Copy code
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Webpage</title>
-</head>
-<body>
-    <h1>Welcome to My Webpage</h1>
+            <!-- Embedding a tweet -->
+            <blockquote class="twitter-tweet">
+                <p lang="en" dir="ltr">Just setting up my Twitter. #myfirstTweet</p>
+                &mdash; Twitter (@Twitter) <a href="https://twitter.com/Twitter/status/20?ref_src=twsrc%5Etfw">September 21, 2006</a>
+            </blockquote>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </article>
+        
+        <aside>
+            <p>Placeholder to add comment thread later.</p>
+        </aside>
+    </main>
     
-    <h2>Introduction</h2>
-    <p>This is the first paragraph of the page. It provides a brief introduction to the content of the webpage. You can include some information about the purpose of the page or what the reader can expect to find here.</p>
-    
-    <h2>About Me</h2>
-    <p>The second paragraph gives a bit more detail about who I am or what this page is about. You might want to add some personal details or background information relevant to the context of the webpage.</p>
-    
-    <h3>My Interests</h3>
-    <p>This paragraph outlines some of my interests or hobbies. It is a good place to share personal stories or experiences related to the subject matter of the webpage.</p>
-    
-    <h3>Contact Information</h3>
-    <p>Here you can find ways to get in touch with me. Whether it's an email address, social media handles, or a contact form, this section is useful for visitors who want to reach out.</p>
-    
-    <h2>Clickable Image</h2>
-    <a href="https://www.example.com">
-        <img src="https://i.ibb.co/gTDZZT8/ALX-Logo-07.png" alt="ALX Logo">
-    </a>
-
-    <!-- Link to tweets.html -->
-    <p><a href="html_basic/tweets.html">Check out my tweets!</a></p>
+    <footer>
+        <p>Made by Your Name - <a href="https://www.example.com" target="_blank">here</a></p>
+    </footer>
 </body>
 </html>
