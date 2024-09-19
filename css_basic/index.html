@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Webpage</title>
     <link rel="stylesheet" href="styles.css"> <!-- Optional: Add your CSS file if you have one -->
+    
+    <script>
+        const link1 = document.createElement('link');
+        link1.rel = 'stylesheet';
+        link1.href = 'base.css';
+        document.head.appendChild(link1);
+
+        const link2 = document.createElement('link');
+        link2.rel = 'stylesheet';
+        link2.href = 'styles.css';
+        document.head.appendChild(link2);
+    </script>
 </head>
 <body>
     <header>
