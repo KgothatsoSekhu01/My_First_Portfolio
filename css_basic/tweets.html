@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tweets Page</title>
     <link rel="stylesheet" href="styles.css"> <!-- Optional: Add your CSS file if you have one -->
+    <script>
+        const link1 = document.createElement('link');
+        link1.rel = 'stylesheet';
+        link1.href = 'base.css';
+        document.body.appendChild(link1);
+
+        const link2 = document.createElement('link');
+        link2.rel = 'stylesheet';
+        link2.href = 'styles.css';
+        document.body.appendChild(link2);
+    </script>
 </head>
 <body>
     <header>
@@ -25,7 +36,7 @@
                 <p lang="en" dir="ltr">Just setting up my Twitter. #myfirstTweet</p>
                 &mdash; Twitter (@Twitter) <a href="https://twitter.com/Twitter/status/20?ref_src=twsrc%5Etfw">September 21, 2006</a>
             </blockquote>
-            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+           <script async src="https://platform.twitter.com/widgets.js"></script>
         </article>
         
         <aside>
